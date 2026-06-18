@@ -131,8 +131,8 @@
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--global-theme-color);
-  background: rgba(46, 125, 50, 0.08);
-  border: 1px solid rgba(46, 125, 50, 0.28);
+  background: color-mix(in srgb, var(--global-theme-color) 9%, transparent);
+  border: 1px solid color-mix(in srgb, var(--global-theme-color) 30%, transparent);
   border-radius: 999px;
   white-space: nowrap;
 }
@@ -147,7 +147,7 @@
 .home article > h2 {
   margin-top: 2rem;
   padding-bottom: 0.3rem;
-  border-bottom: 2px solid rgba(46, 125, 50, 0.28);
+  border-bottom: 2px solid color-mix(in srgb, var(--global-theme-color) 30%, transparent);
 }
 
 /* Profile photo: soft corners + a subtle shadow (z-depth/rounded are unstyled in v1). */
@@ -164,4 +164,110 @@
 }
 .contact-icons a:hover {
   transform: translateY(-2px);
+}
+
+/* ----------------------------------------------------------------------------
+   Project cards. The grid container (.row.row-cols-md-3) uses Bootstrap
+   row-cols classes that are unstyled in al-folio v1, so the cards stack full
+   width. Lay them out as a responsive CSS grid and give each a uniform
+   thumbnail. The empty inner ".row" inside each card-body has no row-cols-*
+   class, so the [class*="row-cols"] selector targets only the outer grid.
+   ------------------------------------------------------------------------- */
+.projects .row[class*="row-cols"] {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .projects .row[class*="row-cols"] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 480px) {
+  .projects .row[class*="row-cols"] {
+    grid-template-columns: 1fr;
+  }
+}
+.projects .row[class*="row-cols"] > .col {
+  padding: 0;
+}
+
+/* Uniform card heights + cover-cropped thumbnails. */
+.projects .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 10px;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
+}
+.projects .card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.projects .card .card-body {
+  flex: 1 1 auto;
+}
+/* Lift the whole card on hover (theme only recolors the title by default). */
+.projects a:hover .card {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.13);
+}
+
+/* ----------------------------------------------------------------------------
+   Sticky navbar frosted-glass effect. The navbar is already fixed
+   (body.fixed-top-nav reserves 57px), so this is purely cosmetic: a
+   translucent background + blur so content scrolls softly beneath it.
+   ------------------------------------------------------------------------- */
+#navbar.fixed-top {
+  background-color: color-mix(in srgb, var(--global-bg-color) 82%, transparent);
+  backdrop-filter: saturate(180%) blur(12px);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* ----------------------------------------------------------------------------
+   Typography: load Inter (added to google_fonts in _config.yml) for a cleaner,
+   more modern feel than the default Roboto. Headings get a slight negative
+   tracking for a more polished, designed look.
+   ------------------------------------------------------------------------- */
+body {
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title,
+.navbar-brand,
+.card-title {
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+}
+.post-title {
+  letter-spacing: -0.02em;
+}
+
+/* Gentle color transition on all links for smoother hover. */
+a {
+  transition: color 0.15s ease;
 }

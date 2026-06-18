@@ -2,7 +2,7 @@
 layout: page
 title: SlaKoNet DB
 description: ML electronic-property prediction at scale
-img:
+img: assets/img/projects/slakonet.png
 importance: 3
 category: Research
 related_publications: false

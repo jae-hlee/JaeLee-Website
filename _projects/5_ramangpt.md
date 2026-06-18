@@ -2,7 +2,7 @@
 layout: page
 title: RamanGPT
 description: ML for Raman spectroscopy of 2D materials
-img:
+img: assets/img/projects/ramangpt.png
 importance: 5
 category: Research
 related_publications: false
