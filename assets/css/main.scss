@@ -201,7 +201,8 @@
 .projects .card img {
   width: 100%;
   height: 200px;
-  object-fit: contain; /* show the whole figure (not a center-crop); white fig bg blends with the card */
+  object-fit: contain; /* show the whole figure (not a center-crop) */
+  background-color: #fff; /* white panel so figures sit cleanly in BOTH light & dark mode (no dark letterbox bars) */
 }
 .projects .card .card-body {
   flex: 1 1 auto;
