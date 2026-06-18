@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented **AGAPI-Agents: An Open-Access Agentic AI Platform for Accelerated Materials Design on AtomGPT.org** at the **MRS Spring Meeting 2026** in Honolulu, HI. :ocean:
+Presented **Agentic AI for Materials Design with AGAPI** at the **MRS Spring Meeting 2026** in Honolulu, HI. :ocean:

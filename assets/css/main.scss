@@ -58,6 +58,16 @@
   flex: 0 0 7rem;
   max-width: 7rem;
   padding: 0;
+  text-align: left; /* override Tailwind text-center: align date pills + location to a clean left edge */
+}
+.cv .row > .date-column .table-cv,
+.cv .row > .col-md-2 .table-cv {
+  width: 100%;
+  margin: 0;
+}
+.cv .row > .date-column .table-cv td,
+.cv .row > .col-md-2 .table-cv td {
+  text-align: left;
 }
 .cv .row > .col-md-10 {
   flex: 1 1 auto;
@@ -86,10 +96,17 @@
    unstyled in al-folio v1, so constrain the image size explicitly here.
    ------------------------------------------------------------------------- */
 .scandat-figure {
-  max-width: 320px;
+  max-width: 480px;
   margin: 1.5rem auto;
 }
 .scandat-figure img {
   width: 100%;
   height: auto;
+}
+
+/* Larger profile photo on the About page (theme default is 30% at >=576px). */
+@media (min-width: 576px) {
+  .profile {
+    width: 40%;
+  }
 }

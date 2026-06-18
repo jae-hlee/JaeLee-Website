@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in **Materials Science & Engineering** at **Johns Hopkins University**, where I build machine learning and high-performance computing tools that accelerate the discovery and design of new materials as a member of the [Choudhary Research Group](https://choudhary.wse.jhu.edu/).
+I am a second-year PhD student in **Materials Science & Engineering** at **Johns Hopkins University**, where I build machine learning and high-performance computing tools that accelerate the discovery and design of new materials as a member of the [Choudhary Research Group](https://choudhary.wse.jhu.edu/).
 
 My research sits at the intersection of **first-principles simulation (DFT)**, **machine-learning interatomic potentials**, and **agentic AI**. I work on a range of problems: predicting electronic properties across millions of crystal structures, screening and designing battery cathode materials, learning catalytic adsorption energies, and building [AtomGPT](https://atomgpt.org)-powered agents that let researchers run materials-discovery workflows in natural language. I also care about making these methods fast and reproducible at scale, from single GPUs to multi-GPU systems.
 
