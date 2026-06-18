@@ -107,8 +107,8 @@
 /* Larger profile photo on the About page (theme default is 30% at >=576px). */
 @media (min-width: 576px) {
   .profile {
-    width: 35%;
-    /* No negative margin: it used to pull the photo up over the research-tags row. */
+    width: 38%;
+    margin-top: 3.5rem; /* nudge the photo down so it sits middle-ish beside the bio */
   }
 }
 
@@ -123,6 +123,7 @@
   flex-wrap: wrap;
   gap: 0.4rem;
   margin-top: 0.75rem;
+  margin-bottom: 2rem; /* breathing room before the bio paragraph */
 }
 .research-tags span {
   display: inline-block;
