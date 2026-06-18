@@ -4,7 +4,7 @@ title: BatteryMat
 description: ML-accelerated DFT screening of battery cathodes
 img:
 importance: 2
-category: research
+category: Research
 related_publications: false
 ---
 
@@ -12,4 +12,4 @@ related_publications: false
 
 A parallel effort scales the ML screening stage to millions of structures (Alexandria database, 14 working ions). The methods combine VASP DFT, ML interatomic potentials (ALIGNN-FF), and automated thermodynamic analysis.
 
-Presented as *BatteryMat: A Machine Learning Accelerated DFT Framework for Screening Battery Cathode Materials* at the **MRS Spring Meeting 2026** (Honolulu, HI).
+Presented as a poster at the **NIST Quantum Matters in Materials Science (QMMS) Workshop** (Gaithersburg, MD).

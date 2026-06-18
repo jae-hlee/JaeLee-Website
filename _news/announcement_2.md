@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Giving a talk on **AGAPI: An Agentic AI Platform for Quantum Materials Design** at the **NIST Quantum Matters in Materials Science (QMMS) Workshop** in Gaithersburg, MD.
+Presented a poster on **BatteryMat: A Machine Learning Accelerated DFT Framework for Screening Battery Cathode Materials** at the **NIST Quantum Matters in Materials Science (QMMS) Workshop** in Gaithersburg, MD.

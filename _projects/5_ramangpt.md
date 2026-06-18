@@ -4,7 +4,7 @@ title: RamanGPT
 description: ML for Raman spectroscopy of 2D materials
 img:
 importance: 5
-category: research
+category: Research
 related_publications: false
 ---
 

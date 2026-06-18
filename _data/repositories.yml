@@ -1,9 +1,11 @@
-github_users:
-  - jae-hlee
-
+# Specific repositories featured on the Repositories page.
+# (No github_users -> the personal stats/rank card and trophies are not shown.)
 repo_description_lines_max: 2
 
-# Add specific repositories you want to feature, e.g.:
-# github_repos:
-#   - jae-hlee/ScanDat-Website
 github_repos:
+  - jae-hlee/agapi
+  - jae-hlee/slakonet_jae
+  - jae-hlee/batterymat_jae
+  - jae-hlee/catalmat_jae
+  - jae-hlee/scaling_jae
+  - jae-hlee/aai4science

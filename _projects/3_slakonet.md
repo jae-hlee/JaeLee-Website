@@ -1,10 +1,10 @@
 ---
 layout: page
-title: SlakoNet vs. ALIGNN
+title: SlaKoNet DB
 description: ML electronic-property prediction at scale
 img:
 importance: 3
-category: research
+category: Research
 related_publications: false
 ---
 

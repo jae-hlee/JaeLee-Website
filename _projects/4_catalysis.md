@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Catalysis ML
+title: CatalysisMat
 description: Learning adsorption energies for catalyst discovery
 img:
 importance: 4
-category: research
+category: Research
 related_publications: false
 ---
 

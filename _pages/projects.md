@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Selected research projects in computational and machine-learning materials science.
 nav: true
 nav_order: 2
-display_categories: [research]
+display_categories: [Research]
 horizontal: false
 ---
 

@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: Courses I have supported as a teaching assistant at Johns Hopkins University.
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 I have served as a graduate teaching assistant for the following courses in the Whiting School of Engineering at **Johns Hopkins University**:

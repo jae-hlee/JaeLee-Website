@@ -4,7 +4,7 @@ title: GPU Scaling for Materials
 description: Benchmarking DFT &amp; ML force fields on Blackwell GPUs
 img:
 importance: 6
-category: research
+category: Research
 related_publications: false
 ---
 
