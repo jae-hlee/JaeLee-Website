@@ -111,3 +111,57 @@
     margin-top: -1rem; /* nudge the photo up toward the middle of the bio text */
   }
 }
+
+/* ----------------------------------------------------------------------------
+   About-page (home) UI polish. Scoped under `.home` (added in the local
+   _layouts/about.liquid override) so nothing here leaks to other pages.
+   ------------------------------------------------------------------------- */
+
+/* Research-interest pill badges shown under the name + subtitle. */
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
+}
+.research-tags span {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--global-theme-color);
+  background: rgba(46, 125, 50, 0.08);
+  border: 1px solid rgba(46, 125, 50, 0.28);
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+/* Roomier, more readable bio paragraphs (the bio lives in .clearfix). */
+.home .clearfix p {
+  line-height: 1.7;
+  margin-bottom: 1.1rem;
+}
+
+/* Accent rule under the homepage section headings (News / Selected Publications). */
+.home article > h2 {
+  margin-top: 2rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid rgba(46, 125, 50, 0.28);
+}
+
+/* Profile photo: soft corners + a subtle shadow (z-depth/rounded are unstyled in v1). */
+.profile img {
+  border-radius: 10px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Social icons: a touch more breathing room + a gentle hover lift. */
+.contact-icons a {
+  margin: 0 0.3rem;
+  display: inline-block;
+  transition: transform 0.15s ease;
+}
+.contact-icons a:hover {
+  transform: translateY(-2px);
+}
