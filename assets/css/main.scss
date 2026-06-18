@@ -108,7 +108,7 @@
 @media (min-width: 576px) {
   .profile {
     width: 35%;
-    margin-top: -1rem; /* nudge the photo up toward the middle of the bio text */
+    /* No negative margin: it used to pull the photo up over the research-tags row. */
   }
 }
 
@@ -170,32 +170,33 @@
    Project cards. The grid container (.row.row-cols-md-3) uses Bootstrap
    row-cols classes that are unstyled in al-folio v1, so the cards stack full
    width. Lay them out as a responsive CSS grid and give each a uniform
-   thumbnail. The empty inner ".row" inside each card-body has no row-cols-*
-   class, so the [class*="row-cols"] selector targets only the outer grid.
+   thumbnail. Target the literal `.row-cols-md-3` class (the empty inner ".row"
+   in each card-body lacks it) — an attribute selector like [class*="row-cols"]
+   gets stripped by the deploy's PurgeCSS, so use the real class name instead.
    ------------------------------------------------------------------------- */
-.projects .row[class*="row-cols"] {
+.projects .row-cols-md-3 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.5rem;
   margin: 0;
 }
 @media (max-width: 768px) {
-  .projects .row[class*="row-cols"] {
+  .projects .row-cols-md-3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 @media (max-width: 480px) {
-  .projects .row[class*="row-cols"] {
+  .projects .row-cols-md-3 {
     grid-template-columns: 1fr;
   }
 }
-.projects .row[class*="row-cols"] > .col {
+.projects .row-cols-md-3 > .col {
   padding: 0;
 }
 /* The card is wrapped in an <a>, which is inline by default and collapses the
    card to its min-content width. Make it a full-height block so each card fills
    its grid column. */
-.projects .row[class*="row-cols"] > .col > a {
+.projects .row-cols-md-3 > .col > a {
   display: block;
   height: 100%;
 }
@@ -323,7 +324,7 @@ button:focus-visible {
    ever hidden. Disabled entirely under prefers-reduced-motion (above).
    ------------------------------------------------------------------------- */
 @media (prefers-reduced-motion: no-preference) {
-  .projects .row[class*="row-cols"] > .col,
+  .projects .row-cols-md-3 > .col,
   .home article > h2 {
     animation: reveal-up linear both;
     animation-timeline: view();
