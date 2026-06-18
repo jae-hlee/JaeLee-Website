@@ -108,7 +108,7 @@
 @media (min-width: 576px) {
   .profile {
     width: 38%;
-    margin-top: 3.5rem; /* nudge the photo down so it sits middle-ish beside the bio */
+    margin-top: 1.5rem; /* slight nudge down beside the bio */
   }
 }
 
@@ -116,27 +116,6 @@
    About-page (home) UI polish. Scoped under `.home` (added in the local
    _layouts/about.liquid override) so nothing here leaks to other pages.
    ------------------------------------------------------------------------- */
-
-/* Research-interest pill badges shown under the name + subtitle. */
-.research-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  margin-top: 0.75rem;
-  margin-bottom: 2rem; /* breathing room before the bio paragraph */
-}
-.research-tags span {
-  display: inline-block;
-  padding: 0.2rem 0.7rem;
-  font-size: 0.75rem;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  color: var(--global-theme-color);
-  background: color-mix(in srgb, var(--global-theme-color) 9%, transparent);
-  border: 1px solid color-mix(in srgb, var(--global-theme-color) 30%, transparent);
-  border-radius: 999px;
-  white-space: nowrap;
-}
 
 /* Roomier, more readable bio paragraphs (the bio lives in .clearfix). */
 .home .clearfix p {
