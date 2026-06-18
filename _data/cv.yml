@@ -165,10 +165,6 @@ cv:
         publisher: "Electronic Structure Workshop (ESW 2026), University of Wisconsin–Madison"
         releaseDate: 2026-06
 
-      - title: "SlaKoNet DB: A Cross-Domain Tight-Binding Database of Electronic Structure (poster)"
-        publisher: "Artificial Intelligence for Materials Science (AIMS) 2026, NIST, Gaithersburg, MD"
-        releaseDate: 2026-06
-
       - title: "Agentic AI for Materials Design with AGAPI (talk)"
         publisher: "MRS Spring Meeting, Honolulu, HI"
         releaseDate: 2026-04
@@ -184,15 +180,15 @@ cv:
     Skills:
       - name: First-Principles & Atomistic Methods
         icon: fa-solid fa-atom
-        keywords: "DFT (VASP), DFT+U, NEB ion-migration barriers, convex-hull / phase stability, supercell modeling"
+        keywords: "DFT (VASP, Quantum Espresso), MD (LAMMPS), convex-hull / phase stability, supercell modeling"
 
       - name: Machine Learning for Materials
         icon: fa-solid fa-brain
-        keywords: "ML interatomic potentials (ALIGNN-FF), graph neural networks (ALIGNN), tight-binding NN (SlakoNet), PyTorch, DGL"
+        keywords: "ML interatomic potentials, graph neural networks, PyTorch, DGL"
 
       - name: Programming & Tooling
         icon: fa-solid fa-code
-        keywords: "Python, Bash, JARVIS-Tools, ASE, SLURM, REST APIs, LLM tool-calling / agents"
+        keywords: "Python, Bash, ASE, SLURM, REST APIs, LLM tool-calling / agents"
 
       - name: High-Performance Computing
         icon: fa-solid fa-microchip
