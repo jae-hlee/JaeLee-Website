@@ -192,6 +192,13 @@
 .projects .row[class*="row-cols"] > .col {
   padding: 0;
 }
+/* The card is wrapped in an <a>, which is inline by default and collapses the
+   card to its min-content width. Make it a full-height block so each card fills
+   its grid column. */
+.projects .row[class*="row-cols"] > .col > a {
+  display: block;
+  height: 100%;
+}
 
 /* Uniform card heights + cover-cropped thumbnails. */
 .projects .card {
