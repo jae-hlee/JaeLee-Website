@@ -96,7 +96,7 @@
    unstyled in al-folio v1, so constrain the image size explicitly here.
    ------------------------------------------------------------------------- */
 .scandat-figure {
-  max-width: 480px;
+  max-width: 620px;
   margin: 1.5rem auto;
 }
 .scandat-figure img {
@@ -107,6 +107,6 @@
 /* Larger profile photo on the About page (theme default is 30% at >=576px). */
 @media (min-width: 576px) {
   .profile {
-    width: 40%;
+    width: 60%;
   }
 }

@@ -42,34 +42,23 @@ cv:
         end_date: 2023-05
 
     Research Experience:
-      - company: Johns Hopkins University
+      - company: Johns Hopkins University — Choudhary Lab
         position: Doctoral Researcher
         location: Baltimore, MD
         start_date: 2025-01
         end_date: present
-        highlights:
-          - Accelerating materials discovery by combining first-principles DFT with machine-learning interatomic potentials and graph neural networks.
-          - Developing neural-network models for electronic and energetic properties across millions of crystal structures.
-          - Building agentic AI platforms (AtomGPT / AGAPI) that drive materials-discovery workflows from natural language.
-          - Optimizing DFT and ML workloads on HPC, including multi-GPU Blackwell systems.
 
       - company: Columbia University — Urban Lab
         position: Graduate Research Assistant
         location: New York, NY
         start_date: 2024-01
         end_date: 2024-12
-        highlights:
-          - Developed machine-learning interatomic potentials for LiNiO₂ and TiO₂ battery and oxide materials.
-          - Awarded the Société de Chimie Industrielle Scholarship.
 
-      - company: Penn State — Janik & Alexopoulos Labs
+      - company: Pennsylvania State University — Janik & Alexopoulos Labs
         position: Undergraduate Research Assistant
         location: University Park, PA
         start_date: 2020-08
         end_date: 2023-05
-        highlights:
-          - Studied catalytic site behavior in metal oxides using density functional theory.
-          - Mentored new undergraduate researchers on computational methods.
 
     Industry & Service:
       - company: EnerSys
@@ -77,17 +66,12 @@ cv:
         location: Reading, PA
         start_date: 2022-01
         end_date: 2022-06
-        highlights:
-          - Performed FMEA on lithium-ion and lead-acid battery products.
-          - Resolved production deviation cases.
 
       - company: U.S. Forces Korea (KATUSA)
         position: Sergeant (E-5)
         location: Camp Humphreys, South Korea
         start_date: 2018-06
         end_date: 2020-02
-        highlights:
-          - Completed 21 months of mandatory military service.
 
     Teaching:
       - company: Johns Hopkins University
@@ -114,16 +98,12 @@ cv:
         location: University Park, PA
         start_date: 2020-08
         end_date: 2023-05
-        highlights:
-          - Led mentorship initiatives and organized participation in national conferences.
 
       - company: Engineers Without Borders, Penn State
         position: Development Committee Chair
         location: University Park, PA
         start_date: 2020-08
         end_date: 2023-05
-        highlights:
-          - Led fundraising for a clean-water project in Uganda.
 
     Publications:
       - title: "AGAPI-Agents: An Open-Access Agentic AI Platform for Accelerated Materials Design on AtomGPT.org"
