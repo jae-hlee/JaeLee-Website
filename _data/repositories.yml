@@ -1,0 +1,9 @@
+github_users:
+  - jae-hlee
+
+repo_description_lines_max: 2
+
+# Add specific repositories you want to feature, e.g.:
+# github_repos:
+#   - jae-hlee/ScanDat-Website
+github_repos:

@@ -1,0 +1,221 @@
+cv:
+  name: Jaehyung Lee
+  label: PhD Student, Materials Science & Engineering
+  email: jlee859@jh.edu
+  location: Baltimore, MD
+  image: ""
+  summary: >
+    PhD student in Materials Science & Engineering at Johns Hopkins University working on
+    machine learning and high-performance computing for accelerated materials discovery —
+    spanning DFT, ML interatomic potentials, graph neural networks, and agentic AI.
+
+  social_networks:
+    - network: LinkedIn
+      username: leejaehyung
+    - network: GitHub
+      username: jae-hlee
+
+  sections:
+    Education:
+      - institution: Johns Hopkins University
+        location: Baltimore, MD
+        url: https://engineering.jhu.edu/materials/
+        area: Materials Science & Engineering
+        studyType: PhD
+        start_date: 2025-01
+        end_date: present
+
+      - institution: Columbia University
+        location: New York, NY
+        url: https://www.cheme.columbia.edu/
+        area: Chemical Engineering
+        studyType: MS
+        start_date: 2023-08
+        end_date: 2024-12
+
+      - institution: The Pennsylvania State University
+        location: University Park, PA
+        url: https://www.che.psu.edu/
+        area: Chemical Engineering
+        studyType: BS
+        start_date: 2017-08
+        end_date: 2023-05
+
+    Research Experience:
+      - company: Johns Hopkins University
+        position: Doctoral Researcher
+        location: Baltimore, MD
+        start_date: 2025-01
+        end_date: present
+        highlights:
+          - Accelerating materials discovery by combining first-principles DFT with machine-learning interatomic potentials and graph neural networks.
+          - Developing neural-network models for electronic and energetic properties across millions of crystal structures.
+          - Building agentic AI platforms (AtomGPT / AGAPI) that drive materials-discovery workflows from natural language.
+          - Optimizing DFT and ML workloads on HPC, including multi-GPU Blackwell systems.
+
+      - company: Columbia University — Urban Lab
+        position: Graduate Research Assistant
+        location: New York, NY
+        start_date: 2024-01
+        end_date: 2024-12
+        highlights:
+          - Developed machine-learning interatomic potentials for LiNiO₂ and TiO₂ battery and oxide materials.
+          - Awarded the Société de Chimie Industrielle Scholarship for a poster presentation.
+
+      - company: Penn State — Janik & Alexopoulos Labs
+        position: Undergraduate Research Assistant
+        location: University Park, PA
+        start_date: 2020-08
+        end_date: 2023-05
+        highlights:
+          - Studied catalytic site behavior in metal oxides using density functional theory.
+          - Mentored new undergraduate researchers on computational methods.
+
+    Industry & Service:
+      - company: EnerSys
+        position: Advanced Quality Engineer Intern
+        location: Reading, PA
+        start_date: 2022-01
+        end_date: 2022-06
+        highlights:
+          - Performed FMEA on lithium-ion and lead-acid battery products.
+          - Resolved 204 production deviation cases.
+
+      - company: U.S. Forces Korea (KATUSA)
+        position: Sergeant (E-5)
+        location: Camp Humphreys, South Korea
+        start_date: 2018-06
+        end_date: 2020-02
+        highlights:
+          - Completed 21 months of mandatory military service.
+          - Served as personal interpreter for a U.S. Army captain.
+
+    Teaching:
+      - company: Johns Hopkins University
+        position: Teaching Assistant — Applied Quantum Computing (EN.520.677)
+        location: Baltimore, MD
+        start_date: 2026-09
+        end_date: 2026-12
+
+      - company: Johns Hopkins University
+        position: Teaching Assistant — Physical Chemistry of Materials I (EN.510.312)
+        location: Baltimore, MD
+        start_date: 2026-01
+        end_date: 2026-05
+
+    Leadership:
+      - company: Columbia University, Dept. of Chemical Engineering
+        position: MS Ambassador
+        location: New York, NY
+        start_date: 2024-04
+        end_date: 2024-12
+
+      - company: AIChE, Penn State Chapter
+        position: Vice President
+        location: University Park, PA
+        start_date: 2020-08
+        end_date: 2023-05
+        highlights:
+          - Led mentorship initiatives and organized participation in national conferences.
+
+      - company: Engineers Without Borders, Penn State
+        position: Development Committee Chair
+        location: University Park, PA
+        start_date: 2020-08
+        end_date: 2023-05
+        highlights:
+          - Led fundraising for a clean-water project in Uganda.
+
+    Publications:
+      - title: "AGAPI-Agents: An Open-Access Agentic AI Platform for Accelerated Materials Design on AtomGPT.org"
+        authors:
+          - "**Jaehyung Lee**"
+          - J. Ely
+          - K. Zhang
+          - A. Ajith
+          - C. R. Campbell
+          - K. Choudhary
+        publisher: "arXiv:2512.11935 (under review, J. Phys. Chem. Lett.)"
+        url: https://arxiv.org/abs/2512.11935
+        releaseDate: 2025
+
+      - title: "RamanGPT: Bidirectional Mapping Between Crystal Structures and Raman Spectra with Graph Neural Networks and Generative Transformers"
+        authors:
+          - F. M. Abel
+          - "**Jaehyung Lee**"
+          - C. R. Campbell
+          - K. Choudhary
+        publisher: "arXiv:2606.03764"
+        url: https://arxiv.org/abs/2606.03764
+        releaseDate: 2026
+
+      - title: "Lessons Learned from the 2025 Agentic AI for Science Hackathon"
+        authors:
+          - "**Jaehyung Lee**"
+          - H. Neralla
+          - C. R. Campbell
+          - et al.
+        publisher: "ChemRxiv (under review, Mach. Learn.: Sci. Technol.)"
+        url: https://chemrxiv.org/engage/chemrxiv/article-details/15001345
+        releaseDate: 2026
+
+      - title: "The search for high-entropy fuel-cell catalysts using disorder descriptors"
+        authors:
+          - G. Han
+          - T. Li
+          - X. Xu
+          - "**Jaehyung Lee**"
+          - et al.
+        publisher: Nano Futures 9(4), 045001
+        url: https://doi.org/10.1088/2399-1984/ae19b0
+        releaseDate: 2025
+
+      - title: "From Photons to Electrons: Accelerated Materials Discovery via Random Libraries and Automated STEM"
+        authors:
+          - B. Slautin
+          - K. Barakati
+          - et al.
+          - "**Jaehyung Lee**"
+          - et al.
+        publisher: "arXiv:2603.20858"
+        url: https://arxiv.org/abs/2603.20858
+        releaseDate: 2026
+
+    Selected Presentations:
+      - title: "BatteryMat: A Machine Learning Accelerated DFT Framework for Screening Battery Cathode Materials"
+        authors:
+          - MRS Spring Meeting, Honolulu, HI
+        releaseDate: 2026-04
+
+      - title: "AGAPI: An Agentic AI Platform for Quantum Materials Design"
+        authors:
+          - NIST Quantum Matters in Materials Science (QMMS) Workshop, Gaithersburg, MD
+        releaseDate: 2026-02
+
+      - title: "Analysis on Cathode Materials for Lithium-ion Batteries Using Machine Learning Potentials"
+        authors:
+          - Société de Chimie Industrielle Palladium Medal Ceremony, New York, NY
+        releaseDate: 2024-05
+
+    Skills:
+      - name: First-Principles & Atomistic Methods
+        icon: fa-solid fa-atom
+        keywords: "DFT (VASP), DFT+U, NEB ion-migration barriers, convex-hull / phase stability, supercell modeling"
+
+      - name: Machine Learning for Materials
+        icon: fa-solid fa-brain
+        keywords: "ML interatomic potentials (ALIGNN-FF), graph neural networks (ALIGNN), tight-binding NN (SlakoNet), PyTorch, DGL"
+
+      - name: Programming & Tooling
+        icon: fa-solid fa-code
+        keywords: "Python, Bash, JARVIS-Tools, ASE, SLURM, REST APIs, LLM tool-calling / agents"
+
+      - name: High-Performance Computing
+        icon: fa-solid fa-microchip
+        keywords: "Multi-GPU training & inference, GPU scaling (A100 → Blackwell B200), distributed workflows"
+
+    Languages:
+      - name: Korean
+        summary: "Native speaker"
+      - name: English
+        summary: "Fluent"
