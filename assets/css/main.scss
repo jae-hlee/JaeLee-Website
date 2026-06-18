@@ -271,3 +271,65 @@ h6,
 a {
   transition: color 0.15s ease;
 }
+
+/* ----------------------------------------------------------------------------
+   Dark mode: keep the green brand accent. The theme defaults dark mode to cyan
+   (#2698ba); override with a brighter green that reads well on the dark
+   background (#1c1c1d) so the brand colour is consistent across both themes.
+   This selector matches the theme's own html[data-theme="dark"] specificity and
+   is loaded later, so it wins the cascade.
+   ------------------------------------------------------------------------- */
+html[data-theme="dark"] {
+  --global-theme-color: #66bb6a;
+  --global-hover-color: #66bb6a;
+}
+
+/* ----------------------------------------------------------------------------
+   Accessibility: a clearly visible keyboard-focus ring, and full respect for
+   users who prefer reduced motion (disables the hover lifts + scroll reveal).
+   ------------------------------------------------------------------------- */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+.projects a:focus-visible .card {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ----------------------------------------------------------------------------
+   Subtle scroll-reveal as project cards / section headings enter the viewport.
+   Uses CSS scroll-driven animations (Chromium); browsers without support fall
+   back to a 0s animation that lands on the visible end-state, so no content is
+   ever hidden. Disabled entirely under prefers-reduced-motion (above).
+   ------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: no-preference) {
+  .projects .row[class*="row-cols"] > .col,
+  .home article > h2 {
+    animation: reveal-up linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 35%;
+  }
+}
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
