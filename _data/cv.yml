@@ -60,7 +60,7 @@ cv:
         end_date: 2024-12
         highlights:
           - Developed machine-learning interatomic potentials for LiNiO₂ and TiO₂ battery and oxide materials.
-          - Awarded the Société de Chimie Industrielle Scholarship for a poster presentation.
+          - Awarded the Société de Chimie Industrielle Scholarship.
 
       - company: Penn State — Janik & Alexopoulos Labs
         position: Undergraduate Research Assistant
@@ -79,7 +79,7 @@ cv:
         end_date: 2022-06
         highlights:
           - Performed FMEA on lithium-ion and lead-acid battery products.
-          - Resolved 204 production deviation cases.
+          - Resolved production deviation cases.
 
       - company: U.S. Forces Korea (KATUSA)
         position: Sergeant (E-5)
@@ -88,7 +88,6 @@ cv:
         end_date: 2020-02
         highlights:
           - Completed 21 months of mandatory military service.
-          - Served as personal interpreter for a U.S. Army captain.
 
     Teaching:
       - company: Johns Hopkins University
@@ -217,7 +216,7 @@ cv:
 
       - name: High-Performance Computing
         icon: fa-solid fa-microchip
-        keywords: "Multi-GPU training & inference, GPU scaling (A100 → Blackwell B200), distributed workflows"
+        keywords: "Multi-GPU training & inference, GPU scaling, distributed workflows"
 
     Languages:
       - name: English

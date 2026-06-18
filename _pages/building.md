@@ -7,12 +7,12 @@ nav: true
 nav_order: 5
 ---
 
-Outside of research, I like to design and ship things end to end. Here's a project I'm especially proud of.
+Outside of research, I like to design and ship things end to end. Here are some projects I'm especially proud of.
 
 ## ScanDat
 
 <div class="row justify-content-center">
-  <div class="col-sm-10 mt-3 mt-md-0">
+  <div class="col-8 col-sm-5 col-md-4 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/scandat.png" class="img-fluid rounded z-depth-1" alt="ScanDat AI — snap a flyer, get the event in your calendar" %}
   </div>
 </div>

@@ -40,3 +40,43 @@
   --global-theme-color: #2e7d32;
   --global-hover-color: #2e7d32;
 }
+
+/* ----------------------------------------------------------------------------
+   CV (rendercv) layout fix. The al_folio_cv templates use Bootstrap grid
+   classes (.row / .col-md-2 / .col-md-10) that are NOT styled in al-folio v1
+   (no .row or responsive .col-* in core or bootstrap-compat), so the date
+   column and the text overlap. Lay the rows out with flexbox instead.
+   ------------------------------------------------------------------------- */
+.cv .row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  margin: 0;
+}
+.cv .row > .date-column,
+.cv .row > .col-md-2 {
+  flex: 0 0 7rem;
+  max-width: 7rem;
+  padding: 0;
+}
+.cv .row > .col-md-10 {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding-left: 1rem;
+}
+.cv .row > .col-md-12 {
+  flex: 1 1 100%;
+  padding: 0;
+}
+/* Let long locations (e.g. "Camp Humphreys, South Korea") wrap inside the
+   narrow date column instead of overflowing onto the text at right. */
+.cv .row .location {
+  white-space: normal;
+}
+
+@media (max-width: 576px) {
+  .cv .row { flex-wrap: wrap; }
+  .cv .row > .date-column,
+  .cv .row > .col-md-2 { flex-basis: 100%; max-width: 100%; margin-bottom: 0.35rem; }
+  .cv .row > .col-md-10 { padding-left: 0; }
+}
