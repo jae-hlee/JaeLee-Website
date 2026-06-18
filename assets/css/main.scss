@@ -80,3 +80,16 @@
   .cv .row > .col-md-2 { flex-basis: 100%; max-width: 100%; margin-bottom: 0.35rem; }
   .cv .row > .col-md-10 { padding-left: 0; }
 }
+
+/* ----------------------------------------------------------------------------
+   ScanDat figure on the Building page. Bootstrap col/img-fluid classes are
+   unstyled in al-folio v1, so constrain the image size explicitly here.
+   ------------------------------------------------------------------------- */
+.scandat-figure {
+  max-width: 320px;
+  margin: 1.5rem auto;
+}
+.scandat-figure img {
+  width: 100%;
+  height: auto;
+}

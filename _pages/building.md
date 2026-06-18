@@ -11,10 +11,8 @@ Outside of research, I like to design and ship things end to end. Here are some 
 
 ## ScanDat
 
-<div class="row justify-content-center">
-  <div class="col-8 col-sm-5 col-md-4 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/scandat.png" class="img-fluid rounded z-depth-1" alt="ScanDat AI — snap a flyer, get the event in your calendar" %}
-  </div>
+<div class="scandat-figure">
+  {% include figure.liquid loading="eager" path="assets/img/scandat.png" class="rounded z-depth-1" alt="ScanDat AI — snap a flyer, get the event in your calendar" %}
 </div>
 
 **[ScanDat AI](https://scandat.app)** is an iOS and Apple Watch app I designed, built, and shipped to the App Store. Snap a photo of any flyer, poster, schedule, or screenshot — or paste text — and AI extracts the events and adds them straight to your **Apple or Google Calendar**.
