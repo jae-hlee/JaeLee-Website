@@ -214,6 +214,17 @@
 }
 
 /* ----------------------------------------------------------------------------
+   Project detail pages: the auto-generated "References" heading (from
+   related_publications) sits as a sibling right after the <article> body, with
+   too little space above it. Add breathing room. Scoped to `article + h2` so it
+   only affects this References heading, not the in-article headings on the home
+   page.
+   ------------------------------------------------------------------------- */
+.post > article + h2 {
+  margin-top: 2.5rem;
+}
+
+/* ----------------------------------------------------------------------------
    Sticky navbar frosted-glass effect. The navbar is already fixed
    (body.fixed-top-nav reserves 57px), so this is purely cosmetic: a
    translucent background + blur so content scrolls softly beneath it.
