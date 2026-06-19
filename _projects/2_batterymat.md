@@ -13,3 +13,5 @@ related_publications: false
 A parallel effort scales the ML screening stage to millions of structures (Alexandria database, 14 working ions). The methods combine VASP DFT, ML interatomic potentials (ALIGNN-FF), and automated thermodynamic analysis.
 
 Presented as a poster at the **NIST Quantum Matters in Materials Science (QMMS) Workshop** (Gaithersburg, MD).
+
+**Code:** [github.com/jae-hlee/batterymat_jae](https://github.com/jae-hlee/batterymat_jae)

@@ -13,3 +13,5 @@ related_publications: true
 **AGAPI** is the agentic AI layer built on top of that platform. It lets researchers run materials-discovery workflows in plain language by connecting large language models to a suite of materials-science tools: querying databases (JARVIS-DFT, Materials Project, OQMD), predicting properties with ML models, manipulating crystal structures (supercells, substitutions, vacancies, XRD patterns), relaxing structures with ML force fields, and searching the literature. These tools are chained into multi-step, autonomous workflows. AGAPI is published in *The Journal of Physical Chemistry Letters* {% cite lee2026agapi %}.
 
 I also helped organize the **2025 Agentic AI for Science Hackathon** at Johns Hopkins, which benchmarked agentic AI systems for scientific reasoning across physics, chemistry, materials, and biology {% cite lee2026hackathon %}.
+
+**Code:** [github.com/jae-hlee/agapi](https://github.com/jae-hlee/agapi)
