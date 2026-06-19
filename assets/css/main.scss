@@ -491,18 +491,6 @@ html {
    a calmer ScanDat figure in dark mode, and roomier CV entries.
    ------------------------------------------------------------------------- */
 
-/* 1 — Cap prose line length (~72ch) on text pages for readability. Uses the
-   child combinator (`article > p`) so it only hits top-level prose: the home
-   page bio is nested in `.clearfix` (not a direct child), and figures, the
-   project grid, and the References list aren't <p>/<ul>/<ol> either, so all of
-   those stay full-width. (Avoid `.post:not(.home) …` here — the deploy's
-   PurgeCSS silently strips that selector form; see the PurgeCSS gotchas above.) */
-.post article > p,
-.post article > ul,
-.post article > ol {
-  max-width: 46rem;
-}
-
 /* 3 — Calm the bright ScanDat brand figure in dark mode: a faint frame plus a
    touch less brightness so it settles into the dark theme instead of glaring. */
 html[data-theme="dark"] .scandat-figure img {
