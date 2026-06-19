@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SlaKoNet DB
-description: ML electronic-property prediction at scale
+description: ML electronic-property prediction at scale (poster at ESW)
 img: assets/img/projects/slakonet.png
 importance: 3
 category: Research
@@ -14,3 +14,5 @@ This project benchmarks machine-learning models for predicting electronic proper
 - **ALIGNN**, an atomistic line-graph neural network that achieves higher accuracy as a black-box predictor.
 
 The study quantifies where each model excels and fails (e.g., transition-metal and fluoride chemistries), and shows that structural geometry (bulk crystals versus slabs) can matter more than the model architecture itself. The result is a practical map of when interpretable physics-based models are "good enough" versus when accuracy demands a graph neural network.
+
+I am presenting this work as a poster at the **Electronic Structure Workshop (ESW)**, University of Wisconsin–Madison.
