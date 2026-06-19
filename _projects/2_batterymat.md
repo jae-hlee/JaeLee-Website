@@ -5,7 +5,6 @@ description: ML-accelerated DFT screening of battery cathodes
 img: assets/img/projects/batterymat.png
 importance: 2
 category: Research
-github: https://github.com/jae-hlee/batterymat_jae
 related_publications: false
 ---
 

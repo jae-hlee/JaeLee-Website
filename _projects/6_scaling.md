@@ -5,7 +5,6 @@ description: Benchmarking DFT &amp; ML force fields on Blackwell GPUs
 img: assets/img/projects/scaling.png
 importance: 6
 category: Research
-github: https://github.com/jae-hlee/scaling_jae
 related_publications: false
 ---
 
