@@ -485,3 +485,32 @@ html {
     transform: none;
   }
 }
+
+/* ----------------------------------------------------------------------------
+   Design-review refinements: a comfortable prose measure on text-heavy pages,
+   a calmer ScanDat figure in dark mode, and roomier CV entries.
+   ------------------------------------------------------------------------- */
+
+/* 1 — Cap prose line length (~72ch) on text pages for readability. Excludes the
+   home page (its bio wraps the photo and needs full width). Figures, the project
+   grid, and the References list stay full-width because they aren't <p>/<ul>/<ol>
+   direct children of <article>. */
+.post:not(.home) article > p,
+.post:not(.home) article > ul,
+.post:not(.home) article > ol,
+.post:not(.home) article > blockquote {
+  max-width: 46rem;
+}
+
+/* 3 — Calm the bright ScanDat brand figure in dark mode: a faint frame plus a
+   touch less brightness so it settles into the dark theme instead of glaring. */
+html[data-theme="dark"] .scandat-figure img {
+  filter: brightness(0.88);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* 4 — A little more vertical breathing room between CV entries for scanability. */
+.cv .list-group-item {
+  padding-top: 0.4rem;
+  padding-bottom: 0.55rem;
+}
