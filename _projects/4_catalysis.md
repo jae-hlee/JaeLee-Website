@@ -5,6 +5,7 @@ description: Learning adsorption energies for catalyst discovery
 img: assets/img/projects/catalysis.png
 importance: 4
 category: Research
+github: https://github.com/jae-hlee/catalmat_jae
 related_publications: false
 ---
 

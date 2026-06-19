@@ -5,6 +5,7 @@ description: ML electronic-property prediction at scale (poster at ESW)
 img: assets/img/projects/slakonet.png
 importance: 3
 category: Research
+github: https://github.com/jae-hlee/slakonet_jae
 related_publications: false
 ---
 
