@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented **Agentic AI for Materials Design with AGAPI** at the **Materials Research Society (MRS) Spring Meeting 2026** in Honolulu, HI.
+Gave an oral presentation, **"Agentic AI for Materials Design with AGAPI"**, at the **Materials Research Society (MRS) Spring Meeting 2026** in Honolulu, HI.
