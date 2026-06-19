@@ -195,14 +195,21 @@
   overflow: hidden;
   border-radius: 10px;
   transition:
-    transform 0.18s ease,
-    box-shadow 0.18s ease;
+    transform 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.28s ease,
+    background-color 0.3s ease,
+    border-color 0.3s ease;
 }
 .projects .card img {
   width: 100%;
   height: 200px;
   object-fit: contain; /* show the whole figure (not a center-crop) */
   background-color: #fff; /* white panel so figures sit cleanly in BOTH light & dark mode (no dark letterbox bars) */
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1); /* gentle zoom on hover (below) */
+}
+/* Subtle image zoom that pairs with the card lift on hover. */
+.projects a:hover .card img {
+  transform: scale(1.04);
 }
 .projects .card .card-body {
   flex: 1 1 auto;
@@ -312,5 +319,169 @@ button:focus-visible {
     animation-duration: 0.001ms !important;
     transition-duration: 0.001ms !important;
     scroll-behavior: auto !important;
+  }
+}
+
+/* ----------------------------------------------------------------------------
+   Interaction & motion polish: smooth in-page scrolling, a soft cross-fade on
+   the light/dark toggle, and pill-styled accent link buttons. All motion is
+   neutralized under prefers-reduced-motion by the block above.
+   ------------------------------------------------------------------------- */
+
+/* Smooth anchored scrolling (navbar links, back-to-top, News/Publications
+   heading links, CV table-of-contents). scroll-margin-top already offsets
+   targets below the fixed navbar so they don't land hidden underneath it. */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Soft cross-fade of theme colours when toggling light <-> dark, instead of a
+   hard snap. (.projects .card carries its own combined transition above.) */
+body,
+#navbar.fixed-top,
+footer,
+.repo {
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* Accent-tinted pill link buttons (DOI / arXiv / GitHub / Bib / PDF) with a
+   smooth hover fill, replacing the plain default button look. Uses the theme
+   colour so it reads correctly in both light and dark mode. */
+.publications .btn {
+  border: 1px solid color-mix(in srgb, var(--global-theme-color) 42%, transparent);
+  color: var(--global-theme-color);
+  background-color: transparent;
+  border-radius: 999px;
+  padding: 0.12rem 0.72rem;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+.publications .btn:hover,
+.publications .btn:focus-visible {
+  background-color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+  color: #fff;
+}
+
+/* ----------------------------------------------------------------------------
+   Further polish: animated nav + body-link underlines, an accent scrollbar +
+   text selection, a one-time page-load entrance, a richer card hover, and a
+   scroll-reveal as content enters the viewport. Every animated element has a
+   visible end-state, so non-supporting browsers just show content normally;
+   prefers-reduced-motion (block above) neutralizes all of it.
+   ------------------------------------------------------------------------- */
+
+/* 1 — Animated underline on navbar links + a persistent underline on the active page. */
+.navbar-nav .nav-link {
+  position: relative;
+}
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0.5rem;
+  right: 0.5rem;
+  bottom: 0.15rem;
+  height: 2px;
+  border-radius: 2px;
+  background-color: var(--global-theme-color);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.25s ease;
+}
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-item.active .nav-link::after {
+  transform: scaleX(1);
+}
+
+/* 2 — Body prose links get a smooth left-to-right underline on hover instead of a
+   bare colour change. Scoped to content links; excludes buttons and citations. */
+.post article a:not(.btn):not(.citation),
+.home .clearfix a {
+  text-decoration: none;
+  background-image: linear-gradient(var(--global-theme-color), var(--global-theme-color));
+  background-size: 0% 1.5px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition:
+    background-size 0.25s ease,
+    color 0.15s ease;
+}
+.post article a:not(.btn):not(.citation):hover,
+.home .clearfix a:hover {
+  background-size: 100% 1.5px;
+}
+
+/* 3 — Slim accent scrollbar (Chromium + Firefox). */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: color-mix(in srgb, var(--global-theme-color) 55%, transparent);
+  border-radius: 999px;
+  border: 2px solid var(--global-bg-color);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--global-theme-color);
+}
+html {
+  scrollbar-color: color-mix(in srgb, var(--global-theme-color) 60%, transparent) transparent;
+}
+
+/* 4 — Accent text-selection colour. */
+::selection {
+  background-color: color-mix(in srgb, var(--global-theme-color) 26%, transparent);
+}
+
+/* 6 — Richer project-card hover: a faint accent border alongside the lift + zoom
+   (border-color is already in the card's transition list above, so it fades). */
+.projects .card {
+  border: 1px solid transparent;
+}
+.projects a:hover .card {
+  border-color: color-mix(in srgb, var(--global-theme-color) 35%, transparent);
+}
+
+/* 5 + 7 — Entrance motion. #5 is a one-time page-load lift/fade of the main
+   content block; #7 is a scroll-driven reveal (Chromium `view()` timeline) as
+   cards / publication rows / section headings enter the viewport. */
+@media (prefers-reduced-motion: no-preference) {
+  .post {
+    animation: page-enter 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  .projects .row-cols-md-3 > .col,
+  .publications ol.bibliography > li,
+  .home article > h2 {
+    animation: reveal-up linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 28%;
+  }
+}
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
   }
 }
