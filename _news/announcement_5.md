@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New preprint: **RamanGPT** — bidirectional mapping between crystal structures and Raman spectra with graph neural networks and generative transformers ([arXiv:2606.03764](https://arxiv.org/abs/2606.03764)).
+New preprint: **RamanGPT**, bidirectional mapping between crystal structures and Raman spectra with graph neural networks and generative transformers ([arXiv:2606.03764](https://arxiv.org/abs/2606.03764)).

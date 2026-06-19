@@ -9,7 +9,7 @@ last_name: Lee
 contact_note: >
   The best way to reach me is by email!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Jaehyung Lee — PhD student in Materials Science & Engineering at Johns Hopkins University, working on machine learning and high-performance computing for accelerated materials discovery.
+  Jaehyung Lee, PhD student in Materials Science & Engineering at Johns Hopkins University, working on machine learning and high-performance computing for accelerated materials discovery.
 footer_text:
 keywords: Jaehyung Lee, materials science, machine learning, DFT, computational materials, Johns Hopkins, AtomGPT, battery materials, catalysis
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -157,7 +157,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
 external_sources:
-# (removed the al-folio demo Medium feed + Google Blog sample post — they were
+# (removed the al-folio demo Medium feed + Google Blog sample post. They were
 #  the only "blog posts" on the site and were getting crawled by Google.)
 
 # -----------------------------------------------------------------------------

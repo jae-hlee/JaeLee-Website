@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper **AGAPI-Agents** is published in *The Journal of Physical Chemistry Letters* ([doi:10.1021/acs.jpclett.6c00837](https://doi.org/10.1021/acs.jpclett.6c00837)). :tada:
+Our paper **AGAPI-Agents** is published in *The Journal of Physical Chemistry Letters* ([doi:10.1021/acs.jpclett.6c00837](https://doi.org/10.1021/acs.jpclett.6c00837)).

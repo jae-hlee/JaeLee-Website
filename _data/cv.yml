@@ -6,7 +6,7 @@ cv:
   image: ""
   summary: >
     PhD student in Materials Science & Engineering at Johns Hopkins University working on
-    machine learning and high-performance computing for accelerated materials discovery —
+    machine learning and high-performance computing for accelerated materials discovery,
     spanning DFT, ML interatomic potentials, graph neural networks, and agentic AI.
 
   social_networks:
@@ -42,19 +42,19 @@ cv:
         end_date: 2023-05
 
     Research Experience:
-      - company: Johns Hopkins University — Choudhary Lab
+      - company: Johns Hopkins University, Choudhary Lab
         position: Doctoral Researcher
         location: Baltimore, MD
         start_date: 2025-01
         end_date: present
 
-      - company: Columbia University — Urban Lab
+      - company: Columbia University, Urban Lab
         position: Graduate Research Assistant
         location: New York, NY
         start_date: 2024-01
         end_date: 2024-12
 
-      - company: Pennsylvania State University — Janik & Alexopoulos Labs
+      - company: Pennsylvania State University, Janik & Alexopoulos Labs
         position: Undergraduate Research Assistant
         location: University Park, PA
         start_date: 2020-08
@@ -75,13 +75,13 @@ cv:
 
     Teaching:
       - company: Johns Hopkins University
-        position: Teaching Assistant — Applied Quantum Computing (EN.520.677)
+        position: Teaching Assistant, Applied Quantum Computing (EN.520.677)
         location: Baltimore, MD
         start_date: 2026-09
         end_date: 2026-12
 
       - company: Johns Hopkins University
-        position: Teaching Assistant — Physical Chemistry of Materials I (EN.510.312)
+        position: Teaching Assistant, Physical Chemistry of Materials I (EN.510.312)
         location: Baltimore, MD
         start_date: 2026-01
         end_date: 2026-05
@@ -134,7 +134,7 @@ cv:
           - H. Neralla
           - C. R. Campbell
           - et al.
-        publisher: "Machine Learning: Science and Technology (2026)"
+        publisher: "Machine Learning: Science and Technology"
         url: https://doi.org/10.1088/2632-2153/ae7f6a
         releaseDate: 2026
 
@@ -162,11 +162,11 @@ cv:
 
     Selected Presentations:
       - title: "SlaKoNet DB: A Cross-Domain Tight-Binding Database of Electronic Structure (poster)"
-        publisher: "Electronic Structure Workshop (ESW 2026), University of Wisconsin–Madison"
+        publisher: "Electronic Structure Workshop (ESW), University of Wisconsin–Madison"
         releaseDate: 2026-06
 
       - title: "Agentic AI for Materials Design with AGAPI (talk)"
-        publisher: "MRS Spring Meeting, Honolulu, HI"
+        publisher: "Materials Research Society (MRS) Spring Meeting, Honolulu, HI"
         releaseDate: 2026-04
 
       - title: "BatteryMat: A Machine Learning Accelerated DFT Framework for Screening Battery Cathode Materials (poster)"
