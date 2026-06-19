@@ -106,6 +106,16 @@ cv:
         end_date: 2023-05
 
     Publications:
+      - title: "Lessons Learned from the 2025 Agentic AI for Science Hackathon"
+        authors:
+          - "**Jaehyung Lee**"
+          - H. Neralla
+          - C. R. Campbell
+          - et al.
+        publisher: "Machine Learning: Science and Technology"
+        url: https://doi.org/10.1088/2632-2153/ae7f6a
+        releaseDate: 2026
+
       - title: "AGAPI-Agents: An Open-Access Agentic AI Platform for Accelerated Materials Design on AtomGPT.org"
         authors:
           - "**Jaehyung Lee**"
@@ -128,14 +138,15 @@ cv:
         url: https://arxiv.org/abs/2606.03764
         releaseDate: 2026
 
-      - title: "Lessons Learned from the 2025 Agentic AI for Science Hackathon"
+      - title: "From Photons to Electrons: Accelerated Materials Discovery via Random Libraries and Automated STEM"
         authors:
-          - "**Jaehyung Lee**"
-          - H. Neralla
-          - C. R. Campbell
+          - B. Slautin
+          - K. Barakati
           - et al.
-        publisher: "Machine Learning: Science and Technology"
-        url: https://doi.org/10.1088/2632-2153/ae7f6a
+          - "**Jaehyung Lee**"
+          - et al.
+        publisher: "arXiv:2603.20858"
+        url: https://arxiv.org/abs/2603.20858
         releaseDate: 2026
 
       - title: "The search for high-entropy fuel-cell catalysts using disorder descriptors"
@@ -148,17 +159,6 @@ cv:
         publisher: Nano Futures 9(4), 045001
         url: https://doi.org/10.1088/2399-1984/ae19b0
         releaseDate: 2025
-
-      - title: "From Photons to Electrons: Accelerated Materials Discovery via Random Libraries and Automated STEM"
-        authors:
-          - B. Slautin
-          - K. Barakati
-          - et al.
-          - "**Jaehyung Lee**"
-          - et al.
-        publisher: "arXiv:2603.20858"
-        url: https://arxiv.org/abs/2603.20858
-        releaseDate: 2026
 
     Selected Presentations:
       - title: "SlaKoNet DB: A Cross-Domain Tight-Binding Database of Electronic Structure (poster)"
