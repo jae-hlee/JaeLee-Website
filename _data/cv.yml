@@ -134,8 +134,8 @@ cv:
           - H. Neralla
           - C. R. Campbell
           - et al.
-        publisher: "ChemRxiv (under review, Mach. Learn.: Sci. Technol.)"
-        url: https://chemrxiv.org/doi/full/10.26434/chemrxiv.15001345/v1
+        publisher: "Machine Learning: Science and Technology (2026)"
+        url: https://doi.org/10.1088/2632-2153/ae7f6a
         releaseDate: 2026
 
       - title: "The search for high-entropy fuel-cell catalysts using disorder descriptors"
