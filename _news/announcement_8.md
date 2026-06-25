@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presenting a poster on **"SlaKoNet DB: A Cross-Domain Tight-Binding Database of Electronic Structure"** at the **Electronic Structure Workshop (ESW)**, University of Wisconsin–Madison.
+Presented a poster on **"SlaKoNet DB: A Cross-Domain Tight-Binding Database of Electronic Structure"** at the **Electronic Structure Workshop (ESW)**, University of Wisconsin–Madison.
