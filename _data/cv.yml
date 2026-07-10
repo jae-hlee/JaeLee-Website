@@ -106,6 +106,16 @@ cv:
         end_date: 2023-05
 
     Publications:
+      - title: "BatteryMat: A Hierarchical Machine-Learning and DFT Framework for Average-Voltage Screening of Lithium-Ion Cathode Materials"
+        authors:
+          - "**Jaehyung Lee**"
+          - C. R. Campbell
+          - K. Zhang
+          - K. Choudhary
+        publisher: "arXiv:2607.06645"
+        url: https://arxiv.org/abs/2607.06645
+        releaseDate: 2026
+
       - title: "Lessons Learned from the 2025 Agentic AI for Science Hackathon"
         authors:
           - "**Jaehyung Lee**"
