@@ -5,13 +5,13 @@ description: Generative and agentic AI for materials design
 img: assets/img/projects/agapi.png
 importance: 1
 category: Research
-related_publications: true
+related_publications: false
 ---
 
 **AtomGPT** is an *atomistic generative pre-trained transformer for forward and inverse materials design*. It applies the GPT paradigm to atomic structures, predicting materials properties from a structure (forward) and generating candidate structures for a target property (inverse), alongside related models for diffraction (DiffractGPT) and microscopy (MicroscopyGPT). The models and tools are served openly through [AtomGPT.org](https://atomgpt.org).
 
-**AGAPI** is the agentic AI layer built on top of that platform. It lets researchers run materials-discovery workflows in plain language by connecting large language models to a suite of materials-science tools: querying databases (JARVIS-DFT, Materials Project, OQMD), predicting properties with ML models, manipulating crystal structures (supercells, substitutions, vacancies, XRD patterns), relaxing structures with ML force fields, and searching the literature. These tools are chained into multi-step, autonomous workflows. AGAPI is published in [*The Journal of Physical Chemistry Letters*](https://doi.org/10.1021/acs.jpclett.6c00837) {% cite lee2026agapi %}.
+**AGAPI** is the agentic AI layer built on top of that platform. It lets researchers run materials-discovery workflows in plain language by connecting large language models to a suite of materials-science tools: querying databases (JARVIS-DFT, Materials Project, OQMD), predicting properties with ML models, manipulating crystal structures (supercells, substitutions, vacancies, XRD patterns), relaxing structures with ML force fields, and searching the literature. These tools are chained into multi-step, autonomous workflows. AGAPI is published in [*The Journal of Physical Chemistry Letters*](https://doi.org/10.1021/acs.jpclett.6c00837).
 
-I also helped organize the **2025 Agentic AI for Science Hackathon** at Johns Hopkins, which benchmarked agentic AI systems for scientific reasoning across physics, chemistry, materials, and biology. The results are published in [*Machine Learning: Science and Technology*](https://doi.org/10.1088/2632-2153/ae7f6a) {% cite lee2026hackathon %}.
+I also helped organize the **2025 Agentic AI for Science Hackathon** at Johns Hopkins, which benchmarked agentic AI systems for scientific reasoning across physics, chemistry, materials, and biology. The results are published in [*Machine Learning: Science and Technology*](https://doi.org/10.1088/2632-2153/ae7f6a).
 
 **Code:** [github.com/jae-hlee/agapi](https://github.com/jae-hlee/agapi)
