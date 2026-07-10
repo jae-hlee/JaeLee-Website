@@ -1,11 +1,29 @@
-# Specific repositories featured on the Repositories page.
-# (No github_users -> the personal stats/rank card and trophies are not shown.)
-repo_description_lines_max: 2
+# Repositories page cards, rendered statically from this file by
+# _pages/repositories.md. This deliberately does NOT use the al-folio
+# github-readme-stats image cards: that shared service (github-readme-stats.vercel.app)
+# is frequently rate-limited by GitHub and returns 503, which left the whole
+# Repositories section blank. Static cards have no external dependency.
+repos:
+  - name: agapi
+    url: https://github.com/jae-hlee/agapi
+    description: "Usage examples and Python client for the AtomGPT.org agentic materials-design platform (AGAPI)."
 
-github_repos:
-  - jae-hlee/agapi
-  - jae-hlee/slakonet_jae
-  - jae-hlee/batterymat_jae
-  - jae-hlee/catalmat_jae
-  - jae-hlee/scaling_jae
-  - jae-hlee/aai4science
+  - name: slakonet_jae
+    url: https://github.com/jae-hlee/slakonet_jae
+    description: "Benchmarks of SlakoNet and ALIGNN for band-gap and formation-energy prediction across ten materials datasets."
+
+  - name: batterymat_jae
+    url: https://github.com/jae-hlee/batterymat_jae
+    description: "Hierarchical machine-learning and DFT pipeline for average-voltage screening of lithium-ion cathode materials."
+
+  - name: catalmat_jae
+    url: https://github.com/jae-hlee/catalmat_jae
+    description: "Machine-learning and DFT screening pipeline for catalysis and adsorption-energy prediction."
+
+  - name: scaling_jae
+    url: https://github.com/jae-hlee/scaling_jae
+    description: "GPU scaling benchmarks for materials machine-learning workloads on HPC systems."
+
+  - name: aai4science
+    url: https://github.com/jae-hlee/aai4science
+    description: "Materials from the 2025 Agentic AI for Science (AAI4Science) Hackathon at Johns Hopkins."

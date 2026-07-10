@@ -347,6 +347,64 @@ footer,
     color 0.3s ease;
 }
 
+/* Repositories page: static, self-hosted cards rendered from
+   _data/repositories.yml by _pages/repositories.md. Replaces the al-folio
+   github-readme-stats image cards, whose shared service is frequently
+   rate-limited by GitHub (503) and left the section blank. */
+.repo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.repo-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 10px;
+  background-color: var(--global-card-bg-color);
+  color: var(--global-text-color);
+  text-decoration: none;
+  transition:
+    transform 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.28s ease,
+    border-color 0.28s ease;
+}
+
+.repo-card:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--global-theme-color) 45%, transparent);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+
+.repo-card-head {
+  font-size: 1.05rem;
+  line-height: 1.3;
+  margin-bottom: 0.45rem;
+  word-break: break-word;
+}
+
+.repo-owner {
+  color: var(--global-text-color-light);
+  font-weight: 400;
+}
+
+.repo-name {
+  color: var(--global-theme-color);
+  font-weight: 600;
+}
+
+.repo-card-desc {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--global-text-color-light);
+  margin-bottom: 0;
+}
+
 /* Accent-tinted pill link buttons (DOI / arXiv / GitHub / Bib / PDF) with a
    smooth hover fill, replacing the plain default button look. Uses the theme
    colour so it reads correctly in both light and dark mode. */

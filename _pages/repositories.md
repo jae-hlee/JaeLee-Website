@@ -7,10 +7,13 @@ nav: true
 nav_order: 4
 ---
 
-{% if site.data.repositories.github_repos %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
+{% if site.data.repositories.repos %}
+<div class="repo-grid">
+  {% for repo in site.data.repositories.repos %}
+  <a class="repo-card" href="{{ repo.url }}" target="_blank" rel="external nofollow noopener">
+    <span class="repo-card-head"><span class="repo-owner">jae-hlee /</span> <span class="repo-name">{{ repo.name }}</span></span>
+    <span class="repo-card-desc">{{ repo.description }}</span>
+  </a>
   {% endfor %}
 </div>
 {% endif %}
