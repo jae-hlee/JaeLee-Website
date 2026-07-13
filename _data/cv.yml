@@ -116,6 +116,17 @@ cv:
         url: https://arxiv.org/abs/2607.06645
         releaseDate: 2026
 
+      - title: "Hybrid DiffractGPT-Rietveld Refinement Framework for Automated X-ray Diffraction Analysis"
+        authors:
+          - C. R. Campbell
+          - J. Ely
+          - "**Jaehyung Lee**"
+          - F. M. Abel
+          - K. Choudhary
+        publisher: "arXiv:2607.08890"
+        url: https://arxiv.org/abs/2607.08890
+        releaseDate: 2026
+
       - title: "Lessons Learned from the 2025 Agentic AI for Science Hackathon"
         authors:
           - "**Jaehyung Lee**"
