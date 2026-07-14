@@ -116,6 +116,16 @@ cv:
         url: https://arxiv.org/abs/2607.06645
         releaseDate: 2026
 
+      - title: "Hallucination Detector: A Hybrid LLM and Semantic Scholar Tool-Calling System for Detecting Hallucination in Scientific Literature on AtomGPT.org"
+        authors:
+          - H. Neralla
+          - "**Jaehyung Lee**"
+          - A. H. Romero
+          - K. Choudhary
+        publisher: "arXiv:2607.09774"
+        url: https://arxiv.org/abs/2607.09774
+        releaseDate: 2026
+
       - title: "Hybrid DiffractGPT-Rietveld Refinement Framework for Automated X-ray Diffraction Analysis"
         authors:
           - C. R. Campbell
