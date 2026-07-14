@@ -137,6 +137,16 @@ cv:
         url: https://arxiv.org/abs/2607.08890
         releaseDate: 2026
 
+      - title: "SlaKoNet-VQD: A Universal Slater-Koster Tight-Binding Hamiltonian for Variational Quantum Band-Structure Calculations on Near-Term Hardware"
+        authors:
+          - A. Ajith
+          - "**Jaehyung Lee**"
+          - C. R. Campbell
+          - K. Choudhary
+        publisher: "arXiv:2607.09761"
+        url: https://arxiv.org/abs/2607.09761
+        releaseDate: 2026
+
       - title: "Lessons Learned from the 2025 Agentic AI for Science Hackathon"
         authors:
           - "**Jaehyung Lee**"
