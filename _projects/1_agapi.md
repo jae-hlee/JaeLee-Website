@@ -14,4 +14,6 @@ related_publications: false
 
 I also helped organize the **2025 Agentic AI for Science Hackathon** at Johns Hopkins, which benchmarked agentic AI systems for scientific reasoning across physics, chemistry, materials, and biology. The results are reported in *Lessons Learned from the 2025 Agentic AI for Science Hackathon* ([doi:10.1088/2632-2153/ae7f6a](https://doi.org/10.1088/2632-2153/ae7f6a)).
 
+**Demo:** [atomgpt.org](https://atomgpt.org)
+
 **Code:** [github.com/jae-hlee/agapi](https://github.com/jae-hlee/agapi)

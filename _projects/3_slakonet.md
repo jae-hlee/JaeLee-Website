@@ -17,4 +17,6 @@ The study quantifies where each model excels and fails (e.g., transition-metal a
 
 I presented this work as a poster at the **Electronic Structure Workshop (ESW)**, University of Wisconsin–Madison.
 
+**Demo:** [atomgpt.org/slakonet](https://atomgpt.org/slakonet)
+
 **Code:** [github.com/jae-hlee/slakonet_jae](https://github.com/jae-hlee/slakonet_jae)

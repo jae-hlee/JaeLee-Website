@@ -16,4 +16,6 @@ This work is described in *BatteryMat: A Hierarchical Machine-Learning and DFT F
 
 Presented as a poster at the **NIST Quantum Matters in Materials Science (QMMS) Workshop** (Gaithersburg, MD).
 
+**Demo:** [atomgpt.org/battery](https://atomgpt.org/battery)
+
 **Code:** [github.com/jae-hlee/batterymat_jae](https://github.com/jae-hlee/batterymat_jae)

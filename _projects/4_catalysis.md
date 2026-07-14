@@ -12,4 +12,6 @@ Catalyst design hinges on adsorption energies, but computing them with DFT for e
 
 The work characterizes where ML surrogates reach near-DFT accuracy and where they plateau, providing guidance on data requirements for reliable catalyst screening. It connects to my earlier work on high-entropy fuel-cell catalysts, published in *Nano Futures* (2025).
 
+**Demo:** [atomgpt.org/catalysis](https://atomgpt.org/catalysis)
+
 **Code:** [github.com/jae-hlee/catalmat_jae](https://github.com/jae-hlee/catalmat_jae)
