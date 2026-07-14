@@ -106,14 +106,15 @@ cv:
         end_date: 2023-05
 
     Publications:
-      - title: "BatteryMat: A Hierarchical Machine-Learning and DFT Framework for Average-Voltage Screening of Lithium-Ion Cathode Materials"
+      - title: "Hybrid DiffractGPT-Rietveld Refinement Framework for Automated X-ray Diffraction Analysis"
         authors:
-          - "**Jaehyung Lee**"
           - C. R. Campbell
-          - K. Zhang
+          - J. Ely
+          - "**Jaehyung Lee**"
+          - F. M. Abel
           - K. Choudhary
-        publisher: "arXiv:2607.06645"
-        url: https://arxiv.org/abs/2607.06645
+        publisher: "arXiv:2607.08890"
+        url: https://arxiv.org/abs/2607.08890
         releaseDate: 2026
 
       - title: "Hallucination Detector: A Hybrid LLM and Semantic Scholar Tool-Calling System for Detecting Hallucination in Scientific Literature on AtomGPT.org"
@@ -126,15 +127,14 @@ cv:
         url: https://arxiv.org/abs/2607.09774
         releaseDate: 2026
 
-      - title: "Hybrid DiffractGPT-Rietveld Refinement Framework for Automated X-ray Diffraction Analysis"
+      - title: "BatteryMat: A Hierarchical Machine-Learning and DFT Framework for Average-Voltage Screening of Lithium-Ion Cathode Materials"
         authors:
-          - C. R. Campbell
-          - J. Ely
           - "**Jaehyung Lee**"
-          - F. M. Abel
+          - C. R. Campbell
+          - K. Zhang
           - K. Choudhary
-        publisher: "arXiv:2607.08890"
-        url: https://arxiv.org/abs/2607.08890
+        publisher: "arXiv:2607.06645"
+        url: https://arxiv.org/abs/2607.06645
         releaseDate: 2026
 
       - title: "SlaKoNet-VQD: A Universal Slater-Koster Tight-Binding Hamiltonian for Variational Quantum Band-Structure Calculations on Near-Term Hardware"
@@ -153,7 +153,7 @@ cv:
           - H. Neralla
           - C. R. Campbell
           - et al.
-        publisher: "Machine Learning: Science and Technology"
+        publisher: "Machine Learning: Science and Technology 7(4), 040501"
         url: https://doi.org/10.1088/2632-2153/ae7f6a
         releaseDate: 2026
 
@@ -165,7 +165,7 @@ cv:
           - A. Ajith
           - C. R. Campbell
           - K. Choudhary
-        publisher: "The Journal of Physical Chemistry Letters"
+        publisher: "The Journal of Physical Chemistry Letters 17(26), 7221–7231"
         url: https://doi.org/10.1021/acs.jpclett.6c00837
         releaseDate: 2026
 
