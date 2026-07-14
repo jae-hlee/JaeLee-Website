@@ -3,7 +3,7 @@ layout: page
 title: DiffractGPT-Rietveld
 description: Automated crystal structure determination from powder XRD
 img: assets/img/projects/diffractgpt.png
-importance: 7
+importance: 5
 category: Research
 related_publications: false
 ---

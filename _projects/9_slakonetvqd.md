@@ -3,7 +3,7 @@ layout: page
 title: SlaKoNet-VQD
 description: Variational quantum band structures from neural tight-binding Hamiltonians
 img: assets/img/projects/slakonetvqd.png
-importance: 9
+importance: 7
 category: Research
 related_publications: false
 ---

@@ -4,7 +4,7 @@ title: Hallucination Detector
 description: LLM and Semantic Scholar citation verification for scientific literature
 img: assets/img/projects/hallucination.png
 img_class: tile-img-pad
-importance: 8
+importance: 9
 category: Research
 related_publications: false
 ---
