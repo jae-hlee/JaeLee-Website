@@ -562,9 +562,11 @@ html[data-theme="dark"] .scandat-figure img {
   padding-bottom: 0.55rem;
 }
 
-/* 5 — The Hallucination Detector tile figure is near-square, so scale it down
-   slightly inside its card. The card box is unchanged; the margin revealed
-   around the shrunk figure shows the theme-aware card background as whitespace. */
+/* 5 — The Hallucination Detector tile figure is near-square, so render it
+   slightly smaller inside its card. Padding (box-sizing: border-box keeps the
+   card box unchanged) plus a white background gives a clean white frame that
+   matches the figure's own white background in both light and dark mode. */
 .projects .card-img-top.tile-img-pad {
-  transform: scale(0.85);
+  padding: 0.9rem;
+  background-color: #fff;
 }
