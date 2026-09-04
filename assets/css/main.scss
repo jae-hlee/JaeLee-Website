@@ -92,14 +92,17 @@
 }
 
 /* ----------------------------------------------------------------------------
-   ScanDat figure on the Building page. Bootstrap col/img-fluid classes are
-   unstyled in al-folio v1, so constrain the image size explicitly here.
+   Brand figures on the Building page (ScanDat, Actuator). Bootstrap col/
+   img-fluid classes are unstyled in al-folio v1, so constrain the image size
+   explicitly here.
    ------------------------------------------------------------------------- */
-.scandat-figure {
+.scandat-figure,
+.actuator-figure {
   max-width: 620px;
   margin: 1.5rem auto;
 }
-.scandat-figure img {
+.scandat-figure img,
+.actuator-figure img {
   width: 100%;
   height: auto;
 }
@@ -553,6 +556,12 @@ html {
    touch less brightness so it settles into the dark theme instead of glaring. */
 html[data-theme="dark"] .scandat-figure img {
   filter: brightness(0.88);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* The Actuator banner is already dark, so it only needs the faint frame to
+   separate it from the page background. No brightness change. */
+html[data-theme="dark"] .actuator-figure img {
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
