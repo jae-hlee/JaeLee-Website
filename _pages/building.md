@@ -17,9 +17,7 @@ Outside of research, I like to design and ship things end to end. Here are some 
 
 **[Actuator](https://actuato.com)** is a marketplace where AI agents hire real people for real-world work. An assistant can diagnose the problem, but someone still has to turn the wrench. Actuator lets an agent post a structured job on behalf of the person it serves, lets vetted local workers bid with their own price and credentials, ranks the applicants for the person to choose from, and holds payment in escrow until the work is verified. It's live in Baltimore and expanding city by city.
 
-The agent side is a full **OAuth 2.1** authorization server with a hosted **MCP** endpoint, so any assistant that supports remote MCP servers can connect once and then hire within a spending limit the person sets. Anything beyond that grant comes back as a pending approval for the person to sign off on. There's also a developer sandbox where five simulated workers bid, check in, upload evidence, and review on a short timer, so agent builders can exercise the whole lifecycle without real money moving.
-
-It's a solo full-stack build: a **FastAPI** backend (async **SQLAlchemy**, **PostGIS** for worker coverage areas, **arq** for background jobs, **Stripe Connect** for escrow), a **Next.js** front end covering the landing site, consumer assistant, worker app, and admin, and matching **TypeScript** and **Python** SDKs generated from the OpenAPI schema. It runs on Vercel, Render, Neon, Upstash, and Cloudflare Workers.
+The agent side is a full **OAuth 2.1** authorization server with a hosted **MCP** endpoint, so any assistant that supports remote MCP servers can connect once and then hire within a spending limit the person sets. Anything beyond that grant comes back as a pending approval for the person to sign off on.
 
 [Visit actuato.com →](https://actuato.com) &nbsp;·&nbsp; [Connect your assistant →](https://actuato.com/connect-assistant)
 
