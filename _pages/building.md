@@ -15,7 +15,7 @@ Outside of research, I like to design and ship things end to end. Here are some 
   {% include figure.liquid loading="eager" path="assets/img/actuator.png" class="rounded z-depth-1" alt="Actuator: your AI can diagnose the problem, now it can hire someone to fix it" %}
 </div>
 
-**[Actuator](https://actuato.com)** is a marketplace where AI agents hire real people for real-world work. An assistant can diagnose the problem, but someone still has to turn the wrench. Actuator lets an agent post a structured job on behalf of the person it serves, lets vetted local workers bid with their own price and credentials, ranks the applicants for the person to choose from, and holds payment in escrow until the work is verified. It's live in Baltimore and expanding city by city.
+**[Actuator](https://actuato.com)** is a marketplace where AI agents hire real people for real-world work. An assistant can diagnose the problem, but someone still has to turn the wrench. Actuator lets an agent post a structured job on behalf of the person it serves, lets vetted local workers bid with their own price and credentials, ranks the applicants for the person to choose from, and holds payment in escrow until the work is verified. It's live in Baltimore and expanding city by city, and it's part of the Fall 2026 [Spark Accelerator](https://pavacenter.jhu.edu/programs/student-programs/spark/) cohort at Johns Hopkins.
 
 The agent side is a full **OAuth 2.1** authorization server with a hosted **MCP** endpoint, so any assistant that supports remote MCP servers can connect once and then hire within a spending limit the person sets. Anything beyond that grant comes back as a pending approval for the person to sign off on.
 
