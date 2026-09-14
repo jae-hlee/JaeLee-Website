@@ -28,6 +28,6 @@ I am a second-year PhD student in **Materials Science & Engineering** at **Johns
 
 My research sits at the intersection of **first-principles simulation (DFT)**, **machine-learning interatomic potentials**, and **agentic AI**. I work on a range of problems: predicting electronic properties across millions of crystal structures, screening and designing battery cathode materials, learning catalytic adsorption energies, and building [AtomGPT](https://atomgpt.org)-powered agents that let researchers run materials-discovery workflows in natural language. I also care about making these methods fast and reproducible at scale, from single GPUs to multi-GPU systems.
 
-Before Hopkins, I earned an M.S. in Chemical Engineering from **Columbia University** and a B.S. in Chemical Engineering from **Penn State**, with prior research in machine-learning potentials for battery materials and DFT studies of catalytic metal oxides.
+Before Hopkins, I earned an M.S. in [Chemical Engineering](https://www.cheme.columbia.edu/) from **Columbia University** and a B.S. in [Chemical Engineering](https://www.che.psu.edu/) from **Penn State**, with prior research in machine-learning interatomic potentials for battery materials and DFT studies of catalytic metal oxides.
 
 Feel free to reach out to me at [jlee859@jh.edu](mailto:jlee859@jh.edu) or grab my [CV]({{ '/cv/' | relative_url }}).
