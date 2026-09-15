@@ -15,7 +15,7 @@ social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  scrollable: false # a nested scroll box traps touch scrolling in mobile in-app browsers (Google app). 5 items fit without it.
   limit: 5 # show the 5 most recent on the homepage. Full archive lives at /news/
 
 latest_posts:
