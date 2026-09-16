@@ -96,6 +96,13 @@
    img-fluid classes are unstyled in al-folio v1, so constrain the image size
    explicitly here.
    ------------------------------------------------------------------------- */
+/* "See all news" link under the homepage news list. */
+.news-all {
+  margin: 0.25rem 0 0;
+  text-align: right;
+  font-size: 0.95rem;
+}
+
 .scandat-figure,
 .actuator-figure {
   max-width: 620px;
