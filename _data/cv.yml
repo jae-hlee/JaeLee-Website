@@ -179,15 +179,15 @@ cv:
         url: https://arxiv.org/abs/2606.03764
         releaseDate: 2026
 
-      - title: "From Photons to Electrons: Accelerated Materials Discovery via Random Libraries and Automated STEM"
+      - title: "Accelerated Materials Discovery Through Random-Library Exploration by Automated STEM"
         authors:
           - B. Slautin
           - K. Barakati
           - et al.
           - "**Jaehyung Lee**"
           - et al.
-        publisher: "arXiv:2603.20858"
-        url: https://arxiv.org/abs/2603.20858
+        publisher: "Digital Discovery (advance article)"
+        url: https://doi.org/10.1039/d6dd00186f
         releaseDate: 2026
 
       - title: "The search for high-entropy fuel-cell catalysts using disorder descriptors"
