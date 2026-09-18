@@ -3,7 +3,7 @@ layout: page
 title: AtomGPT &amp; AGAPI
 description: Generative and agentic AI for materials design
 img: assets/img/projects/agapi.png
-importance: 1
+importance: 2
 category: Research
 related_publications: false
 ---

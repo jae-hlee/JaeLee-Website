@@ -3,7 +3,7 @@ layout: page
 title: BatteryMat
 description: ML-accelerated DFT screening of battery cathodes
 img: assets/img/projects/batterymat.png
-importance: 2
+importance: 3
 category: Research
 related_publications: false
 ---

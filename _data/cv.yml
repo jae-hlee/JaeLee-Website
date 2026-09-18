@@ -106,6 +106,18 @@ cv:
         end_date: 2023-05
 
     Publications:
+      - title: "ALIGNN 2.0: A Unified Line-Graph Neural Network Framework for Materials Screening, Force Fields, Inverse Design, Spectroscopy, and Microscopy"
+        authors:
+          - "**Jaehyung Lee**"
+          - C. R. Campbell
+          - A. Ajith
+          - S. V. Kalinin
+          - C. Wolverton
+          - K. Choudhary
+        publisher: "arXiv:2609.19487"
+        url: https://arxiv.org/abs/2609.19487
+        releaseDate: 2026
+
       - title: "Hybrid DiffractGPT-Rietveld Refinement Framework for Automated X-ray Diffraction Analysis"
         authors:
           - C. R. Campbell

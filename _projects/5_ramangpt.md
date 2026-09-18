@@ -3,7 +3,7 @@ layout: page
 title: RamanGPT
 description: Bidirectional ML between crystal structures and Raman spectra
 img: assets/img/projects/ramangpt.png
-importance: 6
+importance: 7
 category: Research
 related_publications: false
 ---
