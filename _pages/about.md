@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Student, <a href='https://engineering.jhu.edu/materials/'>Materials Science & Engineering</a>, Johns Hopkins University
+subtitle: PhD Student, <a href='https://engineering.jhu.edu/materials/'>Materials Science & Engineering</a>, Johns Hopkins University<br><a href='https://ai2ai.engineering.jhu.edu/2026-2027-amazon-doctoral-fellows/'>Amazon AI PhD Fellow</a>
 
 profile:
   align: right

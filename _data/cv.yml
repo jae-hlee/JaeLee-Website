@@ -41,6 +41,23 @@ cv:
         start_date: 2017-08
         end_date: 2023-05
 
+    Honors & Awards:
+      - company: Amazon
+        position: Amazon AI PhD Fellow
+        url: https://ai2ai.engineering.jhu.edu/2026-2027-amazon-doctoral-fellows/
+        start_date: 2026-09
+        end_date: present
+
+      - company: Sigma Xi
+        position: Full Member
+        start_date: 2026-07
+        end_date: present
+
+      - company: Société de Chimie Industrielle
+        position: Société de Chimie Industrielle Fellow
+        start_date: 2024-05
+        end_date: 2024-08
+
     Research Experience:
       - company: Johns Hopkins University, Choudhary Lab
         position: Doctoral Researcher
