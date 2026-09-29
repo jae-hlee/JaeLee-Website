@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Student, <a href='https://engineering.jhu.edu/materials/'>Materials Science & Engineering</a>, Johns Hopkins University<br><a href='https://ai2ai.engineering.jhu.edu/2026-2027-amazon-doctoral-fellows/'>Amazon AI PhD Fellow</a>
+subtitle: PhD Student, <a href='https://engineering.jhu.edu/materials/'>Materials Science & Engineering</a>, Johns Hopkins University
 
 profile:
   align: right
@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a second-year PhD student in **Materials Science & Engineering** at **Johns Hopkins University**, where I build machine learning and high-performance computing tools that accelerate the discovery and design of new materials as a member of the [Choudhary Research Group](https://choudhary.wse.jhu.edu/).
+I am a second-year PhD student in **Materials Science & Engineering** at **Johns Hopkins University**, where I build machine learning and high-performance computing tools that accelerate the discovery and design of new materials as a member of the [Choudhary Research Group](https://choudhary.wse.jhu.edu/). I am currently an [Amazon AI PhD Fellow](https://ai2ai.engineering.jhu.edu/2026-2027-amazon-doctoral-fellows/) for 2026–27.
 
 My research sits at the intersection of **first-principles simulation (DFT)**, **machine-learning interatomic potentials**, and **agentic AI**. I work on a range of problems: predicting electronic properties across millions of crystal structures, screening and designing battery cathode materials, learning catalytic adsorption energies, and building [AtomGPT](https://atomgpt.org)-powered agents that let researchers run materials-discovery workflows in natural language. I also care about making these methods fast and reproducible at scale, from single GPUs to multi-GPU systems.
 
