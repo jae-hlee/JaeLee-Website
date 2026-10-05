@@ -54,7 +54,7 @@ cv:
         end_date: present
 
       - company: Société de Chimie Industrielle
-        position: Société de Chimie Industrielle Fellow
+        position: Société de Chimie Industrielle Scholar
         url: https://www.societe.org/content.aspx?page_id=22&club_id=11039&module_id=176576
         start_date: 2024-05
         end_date: 2024-08
@@ -105,6 +105,13 @@ cv:
         end_date: 2026-05
 
     Leadership:
+      - company: Johns Hopkins Pava Center for Entrepreneurship
+        position: Spark Accelerator, Fall 2026 Cohort (Actuator)
+        url: https://pavacenter.jhu.edu/programs/student-programs/spark/
+        location: Baltimore, MD
+        start_date: 2026-09
+        end_date: present
+
       - company: Columbia University, Dept. of Chemical Engineering
         position: MS Ambassador
         location: New York, NY

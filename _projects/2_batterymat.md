@@ -12,7 +12,7 @@ related_publications: false
 
 A parallel effort scales the ML screening stage to millions of structures (Alexandria database, 14 working ions). The methods combine VASP DFT, ML interatomic potentials (ALIGNN-FF), and automated thermodynamic analysis.
 
-This work is described in *BatteryMat: A Hierarchical Machine-Learning and DFT Framework for Average-Voltage Screening of Lithium-Ion Cathode Materials* ([arXiv:2607.06645](https://arxiv.org/abs/2607.06645)). The three-tier pipeline screens with ALIGNN, validates with a machine-learning force field, and finishes with DFT using automatically selected exchange-correlation functionals. It reproduces commercial lithium-ion voltages within 0.3 V and volumetric capacity within 5 percent, and it flags 71 JARVIS-DFT and 213 Alexandria structures as new cathode candidates.
+This work is described in *BatteryMat: A Hierarchical Machine-Learning and DFT Framework for Average-Voltage Screening of Lithium-Ion Cathode Materials* ([arXiv:2607.06645](https://arxiv.org/abs/2607.06645)). The three-tier pipeline screens with ALIGNN, validates with a machine-learning force field, and finishes with DFT using automatically selected exchange-correlation functionals. For the commercial LFP, LMO, and LCO cathodes it reproduces measured voltages within 0.3 V and volumetric capacity within 5 percent, and it flags 71 JARVIS-DFT and 213 Alexandria structures as new cathode candidates.
 
 Presented as a poster at the **NIST Quantum Matters in Materials Science (QMMS) Workshop** (Gaithersburg, MD).
 
